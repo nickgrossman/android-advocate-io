@@ -68,6 +68,7 @@ public class MainActivity extends Activity {
     	
     	Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(url_string));
 		startActivity(browserIntent);
+		finish();
     }
     
     @Override
